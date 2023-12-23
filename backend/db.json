@@ -1,0 +1,255 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "SEAFOOD"
+    },
+    {
+      "id": 2,
+      "name": "ITALIAN"
+    },
+    {
+      "id": 3,
+      "name": "CHINESE"
+    },
+    {
+      "id": 4,
+      "name": "MEXICAN"
+    },
+    {
+      "id": 5,
+      "name": "KOREAN"
+    },
+    {
+      "id": 6,
+      "name": "INDONESIAN"
+    }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "name": "Sea Fire Grill",
+      "price": "$$",
+      "rating": 4,
+      "isOpen": 11,
+      "isClose": 23,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipOvBdRiCtiaEcPPDHUwxlneU2Q9jzrRX-h8ofCy=w408-h271-k-no",
+      "category": {
+        "id": 1,
+        "name": "SEAFOOD"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "name": "Casa Fina Mexican Restaurant & Cantina",
+      "price": "$$",
+      "rating": 4,
+      "isOpen": 12,
+      "isClose": 1,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipNr-sgHS_LltMjivkvZLgxDPbu_USgZeOW_uYxR=w408-h306-k-no",
+      "category": {
+        "id": 4,
+        "name": "MEXICAN"
+      }
+    }
+   ,
+    {
+      "id": 3,
+      "kode": "K-03",
+      "name": "Fritto Misto",
+      "price": "$$$",
+      "rating": 4,
+      "isOpen": 11,
+      "isClose": 21,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipNL9z2dcCp7kM19l3LGyYTpIl80OsmzPgVjduBl=w408-h306-k-no",
+      "category": {
+        "id": 2,
+        "name": "ITALIAN"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "name": "The Marshal",
+      "price": "$$$$",
+      "rating": 4,
+      "isOpen": 11,
+      "isClose": 22,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipPkSOwNzko0kTfdV6ylCJX7ouNjQj4GjSKO233_=w408-h306-k-no",
+      "category": {
+        "id": 3,
+        "name": "CHINESE"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "name": "The Kunjip | Korean BBQ NYC",
+      "price": "$$",
+      "rating": 3,
+      "isOpen": 10,
+      "isClose": 2,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipP1uplgBUkve8GVFamJq2OAICycfRHVPghGyiiG=w408-h510-k-no",
+      "category": {
+        "id": 5,
+        "name": "KOREAN"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "name": "MEXiCUE",
+      "price": "$$$",
+      "rating": 4,
+      "isOpen": 11,
+      "isClose": 22,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipOrMP9Tazze1oX5F1erZuVHT2gk7nweoy4N2j65=w408-h544-k-no",
+      "category": {
+        "id": 4,
+        "name": "MEXICAN"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "name": "Pacific Catch",
+      "price": "$$",
+      "rating": 4,
+      "isOpen": 11,
+      "isClose": 22,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipOh0vJEeR2WG2fA4Z7EFt2XkDdI83xEQv7uz5Pa=w408-h306-k-no",
+      "category": {
+        "id": 1,
+        "name": "SEAFOOD"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "name": "Cotogna",
+      "price": "$$$",
+      "rating": 4,
+      "isOpen": 11,
+      "isClose": 21,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipPb9kXGfNuw9mzEcyvRcWTlCdJmXfima1EXBo3E=w408-h306-k-no",
+      "category": {
+        "id": 2,
+        "name": "ITALIAN"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "name": "Trattoria Contadina",
+      "price": "$$",
+      "rating": 4,
+      "isOpen": 11,
+      "isClose": 22,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipNgxd8ahKiIx8tNyZbNVgumhSrpZ_5zNIhX1B32=w408-h306-k-no",
+      "category": {
+        "id": 2,
+        "name": "ITALIAN"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-010",
+      "name": "Mr. Sate",
+      "price": "$",
+      "rating": 4,
+      "isOpen": 11,
+      "isClose": 22,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipM1VuhdoxHRjICUedDNbwLbUv88X9xHOkUKil8X=w408-h408-k-no",
+      "category": {
+        "id": 6,
+        "name": "INDONESIAN"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "K-011",
+      "name": "Java",
+      "price": "$$",
+      "rating": 4,
+      "isOpen": 16,
+      "isClose": 22,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipNm158rz4LFJAyoT0VmgiAuQgCDatb-lMNSEDOl=w408-h544-k-no",
+      "category": {
+        "id": 6,
+        "name": "INDONESIAN"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "K-012",
+      "name": "Baekjeong NYC",
+      "price": "$$$",
+      "rating": 4,
+      "isOpen": 10,
+      "isClose": 2,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipNspUM3FKYT4cMJOhtvWGKmU_8pHm1gl9Jpe1Pn=w408-h272-k-no",
+      "category": {
+        "id": 5,
+        "name": "KOREAN"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "K-013",
+      "name": "Korean BBQ Restaurant Seouljib",
+      "price": "$$$$",
+      "rating": 5,
+      "isOpen": 11,
+      "isClose": 0,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipMhD_L636BFDQXkRStOHYeNdCZScekCSgZxT01U=w408-h305-k-no",
+      "category": {
+        "id": 5,
+        "name": "KOREAN"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "K-014",
+      "name": "El Cholo - The Original",
+      "price": "$$",
+      "rating": 4,
+      "isOpen": 11,
+      "isClose": 21,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipPxeNhoyXygzirSI2OMI5f0Y_ZaHMcN7Mr28Nmf=w408-h544-k-no",
+      "category": {
+        "id": 4,
+        "name": "MEXICAN"
+      }
+    },
+    {
+      "id": 15,
+      "kode": "K-015",
+      "name": "The Mexican Village Restaurant",
+      "price": "$$",
+      "rating": 3,
+      "isOpen": 16,
+      "isClose": 2,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipP9Jk8w9TukYAzEvIcfnPwqYuKiN-PFvTOlxKOL=w408-h306-k-no",
+      "category": {
+        "id": 4,
+        "name": "MEXICAN"
+      }
+    },
+    {
+      "id": 16,
+      "kode": "K-016",
+      "name": "Simpang Asia",
+      "price": "$$$",
+      "rating": 4.8,
+      "isOpen": 11,
+      "isClose": 22,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipOMZulw9dY50X7IQV1-6s0HKVeyDmT3KJphkvr2=w426-h240-k-no",
+      "category": {
+        "id": 6,
+        "name": "INDONESIAN"
+      }
+    }
+  ]
+}

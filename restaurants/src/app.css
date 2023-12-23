@@ -1,0 +1,12 @@
+.App {
+  padding-right: 50px;
+}
+.button-load {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 40%;
+  color: #001b79;
+  font-weight: 500;
+  background-color: white;
+}

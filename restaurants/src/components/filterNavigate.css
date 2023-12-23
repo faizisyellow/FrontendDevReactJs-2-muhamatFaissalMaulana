@@ -1,0 +1,21 @@
+.filter {
+  border: 1px solid black;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+#dropdown-basic {
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+label {
+  margin-left: 40px;
+}
+.dropdown {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}

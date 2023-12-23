@@ -1,0 +1,46 @@
+:root {
+  --mainColor: #001b79;
+}
+
+.card {
+    margin-top: 100px;
+  width: "18rem";
+  height: 400px;
+  border-radius: 0;
+  /* border: none; */
+}
+.img-resto {
+  width: 100%;
+  height: 180px;
+  border-radius: 0;
+}
+.rating-blue {
+  color: var(--mainColor);
+}
+.rating-grey {
+  color: gray;
+}
+.open {
+  font-size: 20px;
+  font-weight: bolder;
+  color: green;
+}
+.closed {
+  font-size: 20px;
+  font-weight: bolder;
+  color: red;
+}
+
+.container-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button{
+  width: 100%;
+  background-color: var(--mainColor);
+  border: none;
+  color: white;
+  padding: 10px;
+}
