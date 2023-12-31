@@ -1,13 +1,11 @@
-import { Dropdown } from "react-bootstrap";
+import { Button, Dropdown } from "react-bootstrap";
 import "./filterNavigate.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-export default function FilterNavigation({ changeCategory, choose, clear, resto }) {
+export default function FilterNavigation({ openNow, changeCategory, clear, handlePrice }) {
   const [categories, setCategories] = useState([]);
-  const [isOpenNow, setIsOpenNow] = useState(false);
-  const isOpen = resto;
-  console.log(isOpen);
+
   useEffect(() => {
     const fetchCategories = async () => {
       try {
@@ -20,9 +18,6 @@ export default function FilterNavigation({ changeCategory, choose, clear, resto 
 
     fetchCategories();
   }, []);
-  const handleOnOpen = () => {
-    setIsOpenNow(!isOpenNow);
-  };
 
   return (
     <div className="filter">
@@ -30,7 +25,7 @@ export default function FilterNavigation({ changeCategory, choose, clear, resto 
         <h5>Filter By:</h5>
       </div>
       <label>
-        <input type="checkbox" checked={isOpenNow} onChange={() => handleOnOpen()} />
+        <input type="checkbox" onChange={() => openNow()} />
         OPEN NOW
       </label>
       <div className="dropdown">
@@ -38,12 +33,13 @@ export default function FilterNavigation({ changeCategory, choose, clear, resto 
           <Dropdown.Toggle id="dropdown-basic">Price</Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">$</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">$$</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">$$$</Dropdown.Item>
-            <Dropdown.Item href="#/action-4">$$$$</Dropdown.Item>
+            <Dropdown.Item onClick={() => handlePrice("$")}>$</Dropdown.Item>
+            <Dropdown.Item onClick={() => handlePrice("$$")}>$$</Dropdown.Item>
+            <Dropdown.Item onClick={() => handlePrice("$$$")}>$$$</Dropdown.Item>
+            <Dropdown.Item onClick={() => handlePrice("$$$$")}>$$$$</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
+
         <Dropdown className="category">
           <Dropdown.Toggle id="dropdown-basic">Category</Dropdown.Toggle>
 
@@ -57,7 +53,9 @@ export default function FilterNavigation({ changeCategory, choose, clear, resto 
         </Dropdown>
       </div>
 
-      <button onClick={() => clear()}>CLEAR ALL</button>
+      <Button onClick={() => clear()} className="btnClear">
+        CLEAR ALL
+      </Button>
     </div>
   );
 }

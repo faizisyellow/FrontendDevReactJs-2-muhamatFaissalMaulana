@@ -22,7 +22,6 @@ const DetailView = () => {
 
   return (
     <Container className="mt-4">
-      <h2>Restaurant Detail</h2>
       {restaurant ? (
         <Card>
           <Card.Img variant="top" src={restaurant.image} />
@@ -31,7 +30,6 @@ const DetailView = () => {
             <Card.Text>Rating: {restaurant.rating}</Card.Text>
             <Card.Text>Price: {restaurant.price}</Card.Text>
             <Card.Text>Category: {restaurant.category.name}</Card.Text>
-            
           </Card.Body>
         </Card>
       ) : (

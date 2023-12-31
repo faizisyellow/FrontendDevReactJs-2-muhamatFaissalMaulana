@@ -9,4 +9,5 @@
   color: #001b79;
   font-weight: 500;
   background-color: white;
+  margin-left: calc(100vh - 85vh);
 }

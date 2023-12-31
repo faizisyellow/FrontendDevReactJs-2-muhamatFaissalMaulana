@@ -3,44 +3,71 @@
 }
 
 .card {
-    margin-top: 100px;
-  width: "18rem";
-  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 18rem;
+  height: 385px;
   border-radius: 0;
+  font-size: 14px;
   /* border: none; */
 }
+
 .img-resto {
   width: 100%;
   height: 180px;
   border-radius: 0;
+  object-fit: cover;
 }
+
 .rating-blue {
   color: var(--mainColor);
 }
+
 .rating-grey {
   color: gray;
 }
+
 .open {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bolder;
   color: green;
 }
+
 .closed {
   font-size: 20px;
   font-weight: bolder;
   color: red;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .container-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex: 1;
+  margin-top: -20px; /* Adjust the margin between container items */
+  margin-left: -10px; /* Adjust the margin between container items */
 }
 
-.button{
+.button-con {
+  margin-top: auto;
+}
+
+.button {
   width: 100%;
   background-color: var(--mainColor);
   border: none;
   color: white;
   padding: 10px;
+}
+
+.restoName {
+  font-size: 16px;
+  margin-bottom: 8px; /* Adjust the margin below the restoName */
 }
