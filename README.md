@@ -1,4 +1,4 @@
-React js version: 18.
+React js version: 18, Create using create-react-app.
 
 To Start: npm start.
 
